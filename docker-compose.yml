@@ -15,5 +15,8 @@ services:
 # docker-compose up -d
 # docker-compose exec web composer require nomedopacote
 
+# Composer JSON
+# docker-compose exec web composer install
+
 # Erro de permissao
 # chmod 777 nome do arquivo ou chmod -R 777 nome da pasta
