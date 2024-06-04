@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html
+
+
+# Commands
+# docker-compose build
+# docker-compose up -d
+# docker-compose exec web composer require nomedopacote
+
+# Erro de permissao
+# chmod 777 nome do arquivo ou chmod -R 777 nome da pasta
